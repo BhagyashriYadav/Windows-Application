@@ -46,10 +46,10 @@ namespace TimerAppWinForms
             Timer.Stop();
             Timer.Start();
             MySql.Data.MySqlClient.MySqlConnection connection;
-            string server = "sg2nlmysql3plsk.secureserver.net";
-            string database = "BusPass";
-            string uid = "Pratiksha";
-            string password = "Pratikshaecs@123";
+            string server = "Your servername";
+            string database = "Your database";
+            string uid = "Your uid";
+            string password = "Your password";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";" + "SSL Mode=None ";
@@ -90,10 +90,10 @@ namespace TimerAppWinForms
             Timer.Stop();
             Timer.Start();
             MySql.Data.MySqlClient.MySqlConnection connection;
-            string server = "sg2nlmysql3plsk.secureserver.net";
-            string database = "BusPass";
-            string uid = "Pratiksha";
-            string password = "Pratikshaecs@123";
+             string server = "Your servername";
+            string database = "Your database";
+            string uid = "Your uid";
+            string password = "Your password";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";" + "SSL Mode=None ";
@@ -143,10 +143,10 @@ namespace TimerAppWinForms
 
             Timer.Start();
             MySql.Data.MySqlClient.MySqlConnection connection;
-            string server = "sg2nlmysql3plsk.secureserver.net";
-            string database = "BusPass";
-            string uid = "Pratiksha";
-            string password = "Pratikshaecs@123";
+             string server = "Your servername";
+            string database = "Your database";
+            string uid = "Your uid";
+            string password = "Your password";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";" + "SSL Mode=None ";
@@ -182,7 +182,7 @@ namespace TimerAppWinForms
               
                 WebClient client = new WebClient();
                 String countrycode = "91";
-                String Number = "9370459867";
+                String Number = "Your Number";
                 String number = countrycode + Number;
                 String Sms = "Your file is open at path :- " + path;
 
@@ -209,7 +209,7 @@ namespace TimerAppWinForms
                 String number = countrycode + Number;
                 String Sms = "Your file is delete from path :- " + path;
 
-                string fullUrl = "http://whatsapi.smsinsta.com/api/send-text?number=" + number + "&msg=" + Sms + "&apikey=c6f1c8f502d550f2bda5f2a2c5e8ee5e8fe8d45877aef24c83a4195572c885f7&instance=173b63947dafdfb4edc95c23fe39c389091be2f342bb8941731b82eaf2a89f10";
+                string fullUrl = "Your Whatsapp API Here";
 
 
                 Stream data = client.OpenRead(fullUrl);
